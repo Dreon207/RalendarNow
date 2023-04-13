@@ -1,0 +1,64 @@
+﻿<Page x:Class="KalendfrNow._2"
+      Background ="Azure"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:KalendfrNow"
+      mc:Ignorable="d" 
+      d:DesignHeight="500" d:DesignWidth="800"
+      Title="_2">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <TextBox HorizontalAlignment="Left" Height="28" Margin="18,19,0,0" TextWrapping="Wrap" Text="Февраль" VerticalAlignment="Top" Width="164" TextAlignment="Center" FontSize="16" Grid.Column="3" Grid.ColumnSpan="2"/>
+        <Button Content="→" HorizontalAlignment="Left" Height="40" Margin="75,19,0,0" VerticalAlignment="Top" Width="95" FontSize="23" Click="Button_Click" Grid.Column="6" Grid.ColumnSpan="2"/>
+        <Button Content="←" HorizontalAlignment="Left" Height="40" Margin="22,19,0,0" VerticalAlignment="Top" Width="95" FontSize="23" Click="Button_Click_1" Grid.ColumnSpan="2"/>
+        <Button x:Name="Den1" HorizontalAlignment="Center" Height="70" VerticalAlignment="Center" Width="70" FontSize="23" Grid.Row="1"/>
+        <Button x:Name="Den28" HorizontalAlignment="Center" Height="70" VerticalAlignment="Center" Width="70" FontSize="23" Grid.Column="3" Grid.Row="4"/>
+        <Button x:Name="Den27" HorizontalAlignment="Center" Height="70" VerticalAlignment="Center" Width="70" FontSize="23" Grid.Column="2" Grid.Row="4"/>
+        <Button x:Name="Den26" HorizontalAlignment="Center" Height="70" VerticalAlignment="Center" Width="70" FontSize="23" Grid.Column="1" Grid.Row="4"/>
+        <Button x:Name="Den25" HorizontalAlignment="Center" Height="70" VerticalAlignment="Center" Width="70" FontSize="23" Grid.Row="4"/>
+        <Button x:Name="Den24" HorizontalAlignment="Center" Height="70" VerticalAlignment="Top" Width="70" FontSize="23" Grid.Column="7" Grid.Row="3" Margin="0,10,0,0"/>
+        <Button x:Name="Den23" HorizontalAlignment="Center" Height="70" Margin="0,10,0,0" VerticalAlignment="Top" Width="70" FontSize="23" Grid.Column="6" Grid.Row="3" />
+        <Button x:Name="Den22" HorizontalAlignment="Center" Height="70" Margin="0,10,0,0" VerticalAlignment="Top" Width="70" FontSize="23" Grid.Column="5" Grid.Row="3"/>
+        <Button x:Name="Den21" HorizontalAlignment="Center" Height="70" Margin="0,10,0,0" VerticalAlignment="Top" Width="70" FontSize="23" Grid.Column="4" Grid.Row="3"/>
+        <Button x:Name="Den20" HorizontalAlignment="Center" Height="70" Margin="0,10,0,0" VerticalAlignment="Top" Width="70" FontSize="23" Grid.Column="3" Grid.Row="3"/>
+        <Button x:Name="Den19" HorizontalAlignment="Center" Height="70" VerticalAlignment="Top" Width="70" FontSize="23" Grid.Column="2" Grid.Row="3" Margin="0,10,0,0"/>
+        <Button x:Name="Den18" HorizontalAlignment="Center" Height="70" Margin="0,10,0,0" VerticalAlignment="Top" Width="70" FontSize="23" Grid.Column="1" Grid.Row="3"/>
+        <Button x:Name="Den17" HorizontalAlignment="Center" Height="70" Margin="0,10,0,0" VerticalAlignment="Top" Width="70" FontSize="23" Grid.Row="3"/>
+        <Button x:Name="Den16" HorizontalAlignment="Center" Height="70" VerticalAlignment="Top" Width="70" FontSize="23" Grid.Column="7" Grid.Row="2" Margin="0,10,0,0"/>
+        <Button x:Name="Den2" HorizontalAlignment="Center" Height="70" VerticalAlignment="Center" Width="70" FontSize="23" Grid.Column="1" Grid.Row="1"/>
+        <Button x:Name="Den15" HorizontalAlignment="Center" Height="70" VerticalAlignment="Top" Width="70" FontSize="23" Grid.Column="6" Grid.Row="2" Margin="0,10,0,0"/>
+        <Button x:Name="Den14" HorizontalAlignment="Center" Height="70" VerticalAlignment="Top" Width="70" FontSize="23" Grid.Column="5" Grid.Row="2" Margin="0,10,0,0"/>
+        <Button x:Name="Den13" HorizontalAlignment="Center" Height="70" VerticalAlignment="Top" Width="70" FontSize="23" Grid.Column="4" Grid.Row="2" Margin="0,10,0,0"/>
+        <Button x:Name="Den12" HorizontalAlignment="Center" Height="70" VerticalAlignment="Top" Width="70" FontSize="23" Grid.Column="3" Grid.Row="2" Margin="0,10,0,0"/>
+        <Button x:Name="Den11" HorizontalAlignment="Center" Height="70" Margin="0,10,0,0" VerticalAlignment="Top" Width="70" FontSize="23" Grid.Column="2" Grid.Row="2"/>
+        <Button x:Name="Den10" HorizontalAlignment="Center" Height="70" VerticalAlignment="Top" Width="70" FontSize="23" Grid.Column="1" Grid.Row="2" Margin="0,10,0,0"/>
+        <Button x:Name="Den9" HorizontalAlignment="Center" Height="70" Margin="0,10,0,0" VerticalAlignment="Top" Width="70" FontSize="23" Grid.Row="2"/>
+        <Button x:Name="Den8" HorizontalAlignment="Center" Height="70" VerticalAlignment="Center" Width="70" FontSize="23" Grid.Column="7" Grid.Row="1"/>
+        <Button x:Name="Den7" HorizontalAlignment="Center" Height="70" VerticalAlignment="Center" Width="70" FontSize="23" Grid.Column="6" Grid.Row="1"/>
+        <Button x:Name="Den6" HorizontalAlignment="Center" Height="70" VerticalAlignment="Center" Width="70" FontSize="23" Grid.Column="5" Grid.Row="1"/>
+        <Button x:Name="Den5" HorizontalAlignment="Center" Height="70" VerticalAlignment="Center" Width="70" FontSize="23" Grid.Column="4" Grid.Row="1"/>
+        <Button x:Name="Den4" HorizontalAlignment="Center" Height="70" VerticalAlignment="Center" Width="70" FontSize="23" Grid.Column="3" Grid.Row="1"/>
+        <Button x:Name="Den3" HorizontalAlignment="Center" Height="70" VerticalAlignment="Center" Width="70" FontSize="23" Grid.Column="2" Grid.Row="1"/>
+        <Frame x:Name="Pageper" NavigationUIVisibility="Hidden" Grid.ColumnSpan="8" Grid.RowSpan="5"/>
+
+    </Grid>
+</Page>
